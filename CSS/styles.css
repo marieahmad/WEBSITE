@@ -1,0 +1,24 @@
+.img-style {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 600px;
+}
+@media (min-width: 320px) and (max-width:480px) {
+    .img-style {
+        margin-top: 0px;
+        margin-left: auto;
+        width: 300px;
+}
+}
+.textstyle {
+    margin-top: 200px;
+    margin-right: 100px;
+}
+@media (min-width: 320px) and (max-width:480px) {
+    .textstyle {
+        margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}
